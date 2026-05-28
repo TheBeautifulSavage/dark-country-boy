@@ -1,81 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dark Country Boy — Official Music</title>
-  <meta name="description" content="Dark Country Boy — Official music page. Fire in the Blood (Dark Blues & Dark Country). Raw, haunted Delta blues meets outlaw country." />
-  <meta property="og:title" content="Dark Country Boy — Fire in the Blood" />
-  <meta property="og:description" content="Raw Delta blues meets dark outlaw country. Listen on Spotify." />
-  <meta property="og:image" content="https://open.spotify.com/album/4BTEUZbiFrBAArDvEizQXx" />
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Country Boy — Official Music | Fire in the Blood</title>
+  <meta name="description" content="Dark Country Boy — raw dark blues and outlaw country music. Stream 'Fire in the Blood' on Spotify, Apple Music, and all major platforms.">
+  <meta name="keywords" content="Dark Country Boy, dark country music, blues music, outlaw country, americana, fire in the blood, dark blues">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dark Country Boy — Official Music">
+  <meta property="og:description" content="Raw dark blues and outlaw country. Stream Fire in the Blood now.">
+  <meta property="og:type" content="music.musician">
+  <meta property="og:url" content="https://darkcountryboy.com">
+  <meta property="og:image" content="https://darkcountryboy.com/img/cover.jpg">
 
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dark Country Boy — Official Music">
+  <meta name="twitter:description" content="Raw dark blues and outlaw country. Stream Fire in the Blood now.">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://darkcountryboy.com">
+
+  <!-- Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MusicGroup",
+    "name": "Dark Country Boy",
+    "genre": ["Dark Country", "Blues", "Americana", "Outlaw Country"],
+    "url": "https://darkcountryboy.com",
+    "sameAs": [
+      "https://open.spotify.com/album/4BTEUZbiFrBAArDvEizQXx",
+      "https://www.youtube.com/@DarkCountryBoy"
+    ],
+    "album": {
+      "@type": "MusicAlbum",
+      "name": "Fire in the Blood (Dark Blues & Dark Country)",
+      "url": "https://open.spotify.com/album/4BTEUZbiFrBAArDvEizQXx"
+    }
+  }
+  </script>
+
+  <style>
     :root {
-      --bg: #0a0a0a;
-      --surface: #111111;
-      --surface2: #1a1a1a;
-      --border: #2a2a2a;
-      --accent: #c8860a;
-      --accent2: #e8a020;
-      --text: #e8e0d0;
-      --text-muted: #888070;
-      --text-dim: #555045;
+      --black: #0a0a0a;
+      --dark: #111111;
+      --ember: #c0392b;
+      --gold: #b8860b;
+      --ash: #888888;
+      --white: #e8e8e8;
+      --bone: #d4c5a9;
     }
 
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
     body {
-      font-family: 'Georgia', serif;
-      background-color: var(--bg);
-      color: var(--text);
+      background: var(--black);
+      color: var(--white);
+      font-family: 'Georgia', 'Times New Roman', serif;
+      line-height: 1.6;
       min-height: 100vh;
     }
 
+    /* HEADER */
     header {
-      background: linear-gradient(180deg, #1a0a00 0%, var(--bg) 100%);
-      border-bottom: 1px solid var(--border);
-      text-align: center;
-      padding: 60px 20px 40px;
       position: relative;
+      text-align: center;
+      padding: 80px 20px 60px;
+      background: linear-gradient(180deg, #1a0505 0%, var(--black) 100%);
+      border-bottom: 1px solid #2a1010;
       overflow: hidden;
     }
 
     header::before {
       content: '';
       position: absolute;
-      inset: 0;
-      background: radial-gradient(ellipse at 50% 0%, rgba(200,134,10,0.12) 0%, transparent 70%);
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: radial-gradient(ellipse at center top, rgba(192,57,43,0.15) 0%, transparent 70%);
       pointer-events: none;
     }
 
     .artist-name {
-      font-size: clamp(2.5rem, 6vw, 5rem);
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      color: var(--text);
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      font-weight: 900;
+      letter-spacing: 0.05em;
       text-transform: uppercase;
+      color: var(--white);
+      text-shadow: 0 0 40px rgba(192,57,43,0.4), 0 2px 4px rgba(0,0,0,0.8);
       line-height: 1.1;
-      text-shadow: 0 0 40px rgba(200,134,10,0.3);
     }
 
-    .artist-tagline {
-      margin-top: 12px;
-      color: var(--accent);
-      font-size: 1rem;
-      letter-spacing: 0.2em;
+    .artist-name span {
+      color: var(--ember);
+    }
+
+    .tagline {
+      margin-top: 16px;
+      font-size: 1.1rem;
+      color: var(--bone);
+      letter-spacing: 0.15em;
       text-transform: uppercase;
       font-style: italic;
     }
 
+    /* NAV */
     nav {
       display: flex;
       justify-content: center;
       gap: 32px;
-      margin-top: 32px;
-      flex-wrap: wrap;
+      padding: 20px;
+      background: var(--dark);
+      border-bottom: 1px solid #1f1f1f;
     }
 
     nav a {
-      color: var(--text-muted);
+      color: var(--ash);
       text-decoration: none;
       font-size: 0.85rem;
       letter-spacing: 0.15em;
@@ -83,384 +123,364 @@
       transition: color 0.2s;
     }
 
-    nav a:hover { color: var(--accent); }
+    nav a:hover { color: var(--ember); }
 
-    main {
+    /* MAIN SECTIONS */
+    section {
       max-width: 900px;
       margin: 0 auto;
       padding: 60px 20px;
     }
 
-    section {
-      margin-bottom: 70px;
-    }
-
-    h2 {
-      font-size: 1.6rem;
-      color: var(--accent);
-      letter-spacing: 0.08em;
+    .section-title {
+      font-size: 0.75rem;
+      letter-spacing: 0.3em;
       text-transform: uppercase;
-      margin-bottom: 24px;
-      padding-bottom: 10px;
-      border-bottom: 1px solid var(--border);
+      color: var(--ember);
+      margin-bottom: 32px;
+      border-bottom: 1px solid #2a1010;
+      padding-bottom: 12px;
     }
 
-    /* Album */
+    /* ALBUM HERO */
     .album-hero {
-      display: flex;
-      gap: 36px;
-      align-items: flex-start;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: center;
     }
 
-    .album-cover-placeholder {
-      width: 220px;
-      height: 220px;
-      flex-shrink: 0;
-      background: linear-gradient(135deg, #1a0a00, #2a1500, #0a0500);
-      border: 1px solid var(--border);
+    @media (max-width: 600px) {
+      .album-hero { grid-template-columns: 1fr; }
+    }
+
+    .album-art {
+      aspect-ratio: 1;
+      background: linear-gradient(135deg, #1a0505 0%, #2d0a0a 50%, #1a0505 100%);
+      border: 1px solid #3a1515;
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 8px;
-      font-size: 0.7rem;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--accent);
+      position: relative;
+      overflow: hidden;
     }
 
-    .album-cover-placeholder .fire { font-size: 3rem; }
-
-    .album-info { flex: 1; min-width: 200px; }
-
-    .album-title {
-      font-size: 1.8rem;
-      font-weight: 700;
-      line-height: 1.2;
-      margin-bottom: 8px;
+    .album-art-inner {
+      text-align: center;
+      padding: 24px;
     }
 
-    .album-subtitle {
-      color: var(--accent2);
+    .album-art-inner .flame {
+      font-size: 4rem;
+      display: block;
+      margin-bottom: 12px;
+    }
+
+    .album-art-inner .album-title-small {
+      font-size: 1.2rem;
+      color: var(--bone);
       font-style: italic;
-      font-size: 1rem;
-      margin-bottom: 16px;
     }
 
-    .album-desc {
-      color: var(--text-muted);
-      line-height: 1.7;
-      font-size: 0.95rem;
+    .album-art-inner .artist-small {
+      font-size: 0.8rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ember);
+      margin-top: 8px;
+    }
+
+    .album-info h2 {
+      font-size: clamp(1.5rem, 4vw, 2.2rem);
+      color: var(--bone);
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+
+    .album-info p {
+      color: var(--ash);
       margin-bottom: 24px;
+      font-size: 1rem;
+    }
+
+    /* STREAM BUTTONS */
+    .stream-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
     }
 
     .btn {
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      padding: 12px 28px;
-      background: var(--accent);
-      color: #000;
+      padding: 10px 20px;
+      border: 1px solid;
       text-decoration: none;
-      font-weight: 700;
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      border: none;
-      cursor: pointer;
-      transition: background 0.2s;
+      transition: all 0.2s;
       font-family: inherit;
     }
 
-    .btn:hover { background: var(--accent2); }
-
-    .btn-outline {
+    .btn-spotify {
+      border-color: #1DB954;
+      color: #1DB954;
       background: transparent;
-      color: var(--accent);
-      border: 1px solid var(--accent);
-      margin-left: 12px;
     }
 
-    .btn-outline:hover {
-      background: var(--accent);
+    .btn-spotify:hover {
+      background: #1DB954;
       color: #000;
     }
 
-    /* Spotify embed */
-    .spotify-embed {
-      width: 100%;
-      border-radius: 0;
-      border: 1px solid var(--border);
+    .btn-apple {
+      border-color: #fc3c44;
+      color: #fc3c44;
+      background: transparent;
     }
 
-    /* Tracklist */
+    .btn-apple:hover {
+      background: #fc3c44;
+      color: #fff;
+    }
+
+    .btn-youtube {
+      border-color: #FF0000;
+      color: #FF0000;
+      background: transparent;
+    }
+
+    .btn-youtube:hover {
+      background: #FF0000;
+      color: #fff;
+    }
+
+    /* TRACK LIST */
     .tracklist {
       list-style: none;
-      border: 1px solid var(--border);
     }
 
     .tracklist li {
       display: flex;
       align-items: center;
       gap: 16px;
-      padding: 14px 20px;
-      border-bottom: 1px solid var(--border);
-      transition: background 0.15s;
+      padding: 14px 0;
+      border-bottom: 1px solid #1a1a1a;
+      transition: background 0.2s;
     }
 
-    .tracklist li:last-child { border-bottom: none; }
-    .tracklist li:hover { background: var(--surface2); }
+    .tracklist li:hover { padding-left: 8px; }
 
     .track-num {
-      color: var(--text-dim);
-      font-size: 0.8rem;
+      font-size: 0.75rem;
+      color: var(--ember);
       width: 24px;
       text-align: right;
       flex-shrink: 0;
     }
 
-    .track-name {
-      flex: 1;
-      font-size: 0.95rem;
-    }
-
-    .track-link {
-      color: var(--text-muted);
+    .track-title a {
+      color: var(--bone);
       text-decoration: none;
-      font-size: 0.75rem;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      opacity: 0;
-      transition: opacity 0.2s;
-    }
-
-    .tracklist li:hover .track-link { opacity: 1; }
-    .track-link:hover { color: var(--accent); }
-
-    /* Bio */
-    .bio-text {
-      line-height: 1.85;
-      color: var(--text-muted);
       font-size: 1rem;
     }
 
-    .bio-text p { margin-bottom: 20px; }
+    .track-title a:hover { color: var(--ember); }
 
-    /* Quote */
-    blockquote {
-      border-left: 3px solid var(--accent);
-      margin: 32px 0;
-      padding: 16px 24px;
-      background: var(--surface);
-      font-style: italic;
-      color: var(--text-muted);
+    /* BIO */
+    .bio-text {
       font-size: 1.05rem;
-      line-height: 1.7;
+      color: var(--bone);
+      line-height: 1.8;
     }
 
-    /* Contact / Links */
-    .link-grid {
+    .bio-text p + p {
+      margin-top: 20px;
+    }
+
+    /* PRESS QUOTE */
+    blockquote {
+      border-left: 3px solid var(--ember);
+      padding: 16px 24px;
+      margin: 32px 0;
+      background: #0f0f0f;
+      font-style: italic;
+      color: var(--bone);
+      font-size: 1.1rem;
+    }
+
+    /* CONTACT */
+    .contact-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 16px;
+      gap: 24px;
     }
 
-    .link-card {
-      border: 1px solid var(--border);
-      padding: 20px;
-      text-align: center;
+    .contact-card {
+      background: #0f0f0f;
+      border: 1px solid #1f1f1f;
+      padding: 24px;
+    }
+
+    .contact-card h4 {
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ember);
+      margin-bottom: 12px;
+    }
+
+    .contact-card a {
+      color: var(--bone);
       text-decoration: none;
-      color: var(--text);
-      transition: border-color 0.2s, background 0.2s;
-      display: block;
+      font-size: 0.95rem;
     }
 
-    .link-card:hover {
-      border-color: var(--accent);
-      background: var(--surface2);
-    }
+    .contact-card a:hover { color: var(--ember); }
 
-    .link-card .icon { font-size: 1.6rem; margin-bottom: 8px; }
-    .link-card .label { font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); }
-
+    /* FOOTER */
     footer {
       text-align: center;
       padding: 40px 20px;
-      border-top: 1px solid var(--border);
-      color: var(--text-dim);
+      border-top: 1px solid #1a1a1a;
+      color: var(--ash);
       font-size: 0.8rem;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.1em;
     }
 
-    @media (max-width: 600px) {
-      .album-hero { flex-direction: column; }
-      .album-cover-placeholder { width: 100%; height: 180px; }
-    }
+    footer a { color: var(--ash); text-decoration: none; }
+    footer a:hover { color: var(--ember); }
   </style>
 </head>
 <body>
 
-<header>
-  <div class="artist-name">Dark Country Boy</div>
-  <div class="artist-tagline">Dark Blues &amp; Dark Country — American Roots</div>
+  <header>
+    <h1 class="artist-name">Dark <span>Country</span> Boy</h1>
+    <p class="tagline">Dark Blues &amp; Outlaw Country &mdash; Unfiltered</p>
+  </header>
+
   <nav>
     <a href="#music">Music</a>
     <a href="#tracks">Tracks</a>
-    <a href="#bio">About</a>
-    <a href="#listen">Listen</a>
+    <a href="#about">About</a>
     <a href="#contact">Contact</a>
   </nav>
-</header>
 
-<main>
-
-  <!-- Album Section -->
+  <!-- MUSIC / ALBUM -->
   <section id="music">
-    <h2>New Album</h2>
+    <p class="section-title">Latest Release</p>
     <div class="album-hero">
-      <div class="album-cover-placeholder">
-        <span class="fire">🔥</span>
-        <span>Fire in the Blood</span>
+      <div class="album-art">
+        <div class="album-art-inner">
+          <span class="flame">🔥</span>
+          <div class="album-title-small">Fire in the Blood</div>
+          <div class="artist-small">Dark Country Boy</div>
+        </div>
       </div>
       <div class="album-info">
-        <div class="album-title">Fire in the Blood</div>
-        <div class="album-subtitle">Dark Blues &amp; Dark Country</div>
-        <p class="album-desc">
-          Raw. Haunted. Uncompromising. <em>Fire in the Blood</em> is an album that lives at the crossroads — 
-          where Delta blues collide with outlaw country grit. Ten tracks forged from the deep American tradition 
-          of songs that actually mean something.
-        </p>
-        <a class="btn" href="https://open.spotify.com/album/4BTEUZbiFrBAArDvEizQXx" target="_blank" rel="noopener">
-          🎵 Listen on Spotify
-        </a>
-        <a class="btn btn-outline" href="#tracks">View Tracks</a>
+        <h2>Fire in the Blood<br><em style="font-size:0.7em; color: var(--ash);">(Dark Blues &amp; Dark Country)</em></h2>
+        <p>Ten tracks of raw, guitar-driven blues meeting outlaw country grit. No studio polish. No compromises. Just fire.</p>
+        <div class="stream-buttons">
+          <a href="https://open.spotify.com/album/4BTEUZbiFrBAArDvEizQXx" target="_blank" rel="noopener" class="btn btn-spotify">
+            ▶ Spotify
+          </a>
+          <a href="https://music.apple.com/search?term=dark+country+boy" target="_blank" rel="noopener" class="btn btn-apple">
+            ♫ Apple Music
+          </a>
+          <a href="https://www.youtube.com/@DarkCountryBoy" target="_blank" rel="noopener" class="btn btn-youtube">
+            ▷ YouTube
+          </a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Spotify Embed -->
-  <section id="listen">
-    <h2>Stream Now</h2>
-    <iframe
-      class="spotify-embed"
-      src="https://open.spotify.com/embed/album/4BTEUZbiFrBAArDvEizQXx?utm_source=generator&theme=0"
-      width="100%"
-      height="380"
-      frameBorder="0"
-      allowfullscreen=""
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy"
-      title="Dark Country Boy — Fire in the Blood on Spotify">
+  <!-- TRACK LIST -->
+  <section id="tracks" style="padding-top:0;">
+    <p class="section-title">Track Listing</p>
+    <ul class="tracklist">
+      <li><span class="track-num">01</span><span class="track-title"><a href="https://open.spotify.com/track/4grwRM6aXDzaIDDu8XCzSm" target="_blank" rel="noopener">Fire in the Blood</a></span></li>
+      <li><span class="track-num">02</span><span class="track-title"><a href="https://open.spotify.com/track/3NeoyOsXRZHTc1cULKh4h1" target="_blank" rel="noopener">Ain't Dead Yet</a></span></li>
+      <li><span class="track-num">03</span><span class="track-title"><a href="https://open.spotify.com/track/1kzot2AgKSYG3zzbWOEKXm" target="_blank" rel="noopener">Ashes Ain't the End</a></span></li>
+      <li><span class="track-num">04</span><span class="track-title"><a href="https://open.spotify.com/track/3yLPXBFhyNqbyFwsYLqsTV" target="_blank" rel="noopener">Born to Carry On</a></span></li>
+      <li><span class="track-num">05</span><span class="track-title"><a href="https://open.spotify.com/track/7AQEt5pKtLJGFZ6yiEf8kS" target="_blank" rel="noopener">Burn What's Broken</a></span></li>
+      <li><span class="track-num">06</span><span class="track-title"><a href="https://open.spotify.com/track/37vblcq2TsbiwyrxuEPL05" target="_blank" rel="noopener">Coal Dust &amp; Communion</a></span></li>
+      <li><span class="track-num">07</span><span class="track-title"><a href="https://open.spotify.com/track/1ZRLNRqH72JKELkrmkX9jq" target="_blank" rel="noopener">Courage Ain't Free</a></span></li>
+      <li><span class="track-num">08</span><span class="track-title"><a href="https://open.spotify.com/track/5Bv0OQKQRnlBddMlneVjl4" target="_blank" rel="noopener">Diesel &amp; Grace</a></span></li>
+      <li><span class="track-num">09</span><span class="track-title"><a href="https://open.spotify.com/track/0rklDEU3I6Aovc0FCvEnNO" target="_blank" rel="noopener">Don't Let the Fire Die</a></span></li>
+      <li><span class="track-num">10</span><span class="track-title"><a href="https://open.spotify.com/track/004RJaY1ezaUGmqGfs8HuS" target="_blank" rel="noopener">Every Man's War</a></span></li>
+    </ul>
+  </section>
+
+  <!-- SPOTIFY EMBED -->
+  <section style="padding-top:0; padding-bottom:40px;">
+    <iframe style="border-radius:0;" 
+      src="https://open.spotify.com/embed/album/4BTEUZbiFrBAArDvEizQXx?utm_source=generator&theme=0" 
+      width="100%" height="352" frameBorder="0" allowfullscreen="" 
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+      loading="lazy">
     </iframe>
   </section>
 
-  <!-- Tracklist -->
-  <section id="tracks">
-    <h2>Track Listing</h2>
-    <ol class="tracklist">
-      <li>
-        <span class="track-num">1</span>
-        <span class="track-name">Fire in the Blood</span>
-        <a class="track-link" href="https://open.spotify.com/track/4grwRM6aXDzaIDDu8XCzSm" target="_blank" rel="noopener">Play ↗</a>
-      </li>
-      <li>
-        <span class="track-num">2</span>
-        <span class="track-name">Ain't Dead Yet</span>
-        <a class="track-link" href="https://open.spotify.com/track/3NeoyOsXRZHTc1cULKh4h1" target="_blank" rel="noopener">Play ↗</a>
-      </li>
-      <li>
-        <span class="track-num">3</span>
-        <span class="track-name">Ashes Ain't the End</span>
-        <a class="track-link" href="https://open.spotify.com/track/1kzot2AgKSYG3zzbWOEKXm" target="_blank" rel="noopener">Play ↗</a>
-      </li>
-      <li>
-        <span class="track-num">4</span>
-        <span class="track-name">Born to Carry On</span>
-        <a class="track-link" href="https://open.spotify.com/track/3yLPXBFhyNqbyFwsYLqsTV" target="_blank" rel="noopener">Play ↗</a>
-      </li>
-      <li>
-        <span class="track-num">5</span>
-        <span class="track-name">Burn What's Broken</span>
-        <a class="track-link" href="https://open.spotify.com/track/7AQEt5pKtLJGFZ6yiEf8kS" target="_blank" rel="noopener">Play ↗</a>
-      </li>
-      <li>
-        <span class="track-num">6</span>
-        <span class="track-name">Coal Dust &amp; Communion</span>
-        <a class="track-link" href="https://open.spotify.com/track/37vblcq2TsbiwyrxuEPL05" target="_blank" rel="noopener">Play ↗</a>
-      </li>
-      <li>
-        <span class="track-num">7</span>
-        <span class="track-name">Courage Ain't Free</span>
-        <a class="track-link" href="https://open.spotify.com/track/1ZRLNRqH72JKELkrmkX9jq" target="_blank" rel="noopener">Play ↗</a>
-      </li>
-      <li>
-        <span class="track-num">8</span>
-        <span class="track-name">Diesel &amp; Grace</span>
-        <a class="track-link" href="https://open.spotify.com/track/5Bv0OQKQRnlBddMlneVjl4" target="_blank" rel="noopener">Play ↗</a>
-      </li>
-      <li>
-        <span class="track-num">9</span>
-        <span class="track-name">Don't Let the Fire Die</span>
-        <a class="track-link" href="https://open.spotify.com/track/0rklDEU3I6Aovc0FCvEnNO" target="_blank" rel="noopener">Play ↗</a>
-      </li>
-      <li>
-        <span class="track-num">10</span>
-        <span class="track-name">Every Man's War</span>
-        <a class="track-link" href="https://open.spotify.com/track/004RJaY1ezaUGmqGfs8HuS" target="_blank" rel="noopener">Play ↗</a>
-      </li>
-    </ol>
-  </section>
-
-  <!-- Bio -->
-  <section id="bio">
-    <h2>About Dark Country Boy</h2>
+  <!-- ABOUT -->
+  <section id="about">
+    <p class="section-title">About Dark Country Boy</p>
     <div class="bio-text">
       <p>
-        Dark Country Boy is an independent artist rooted in the deep American traditions of Delta blues, 
-        outlaw country, and Appalachian folk. The music lives at the intersection of shadow and grit — 
-        guitar-forward, emotionally raw, and built from the kind of songs people used to sing when 
-        they needed to mean something.
+        <strong>Dark Country Boy</strong> is the sound of real life run through a guitar amp and set on fire. 
+        Drawing from Delta blues roots, outlaw country tradition, and the kind of hard-earned truth that doesn't fit in three minutes, 
+        this music exists in the spaces mainstream country forgot about.
       </p>
+      <p>
+        The debut album <em>Fire in the Blood (Dark Blues &amp; Dark Country)</em> is ten tracks of unfiltered American roots music — 
+        raw, gritty, and unapologetically real. No studio gloss. No radio compromises. 
+        Just a guitar, some stories, and a fire that doesn't go out.
+      </p>
+      <p>
+        Dark Country Boy sits in the tradition of Waylon Jennings, Johnny Cash, and the Handsome Family — 
+        artists who understood that real country music is about telling the truth, even when it burns.
+      </p>
+
       <blockquote>
-        "Think Howlin' Wolf if he drove an outlaw truck at midnight. 
-        Think Townes Van Zandt with a blues guitar and nothing left to lose."
+        "The blues has always been about truth. This is mine."
+        <br><cite style="font-size:0.8rem; color:var(--ash); font-style:normal; margin-top:8px; display:block;">— Dark Country Boy</cite>
       </blockquote>
+
       <p>
-        <em>Fire in the Blood (Dark Blues &amp; Dark Country)</em> is the debut album — ten tracks that 
-        don't apologize and don't chase trends. Recorded and released independently in 2026, 
-        it's blues and country as they were always meant to be: dangerous, honest, and alive.
-      </p>
-      <p>
-        No label. No compromise. Just the music.
+        <strong>Genre:</strong> Dark Country &bull; Outlaw Blues &bull; Americana &bull; Southern Gothic &bull; Roots Music
       </p>
     </div>
   </section>
 
-  <!-- Listen / Links -->
+  <!-- CONTACT -->
   <section id="contact">
-    <h2>Listen &amp; Connect</h2>
-    <div class="link-grid">
-      <a class="link-card" href="https://open.spotify.com/album/4BTEUZbiFrBAArDvEizQXx" target="_blank" rel="noopener">
-        <div class="icon">🎵</div>
-        <div class="label">Spotify</div>
-      </a>
-      <a class="link-card" href="https://open.spotify.com/track/4grwRM6aXDzaIDDu8XCzSm" target="_blank" rel="noopener">
-        <div class="icon">🔥</div>
-        <div class="label">Title Track</div>
-      </a>
-      <a class="link-card" href="mailto:hostsmblimited@gmail.com">
-        <div class="icon">✉️</div>
-        <div class="label">Contact / Booking</div>
-      </a>
+    <p class="section-title">Contact &amp; Booking</p>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h4>General Inquiries</h4>
+        <a href="mailto:hostsmblimited@gmail.com">hostsmblimited@gmail.com</a>
+      </div>
+      <div class="contact-card">
+        <h4>Press &amp; Media</h4>
+        <a href="mailto:hostsmblimited@gmail.com">hostsmblimited@gmail.com</a>
+      </div>
+      <div class="contact-card">
+        <h4>Stream Now</h4>
+        <a href="https://open.spotify.com/album/4BTEUZbiFrBAArDvEizQXx" target="_blank" rel="noopener">Spotify — Fire in the Blood</a>
+      </div>
     </div>
   </section>
 
-</main>
-
-<footer>
-  &copy; 2026 Dark Country Boy &mdash; All Rights Reserved &mdash; Independent Release
-</footer>
+  <footer>
+    <p>&copy; 2026 Dark Country Boy &mdash; All Rights Reserved</p>
+    <p style="margin-top:8px;">
+      <a href="https://open.spotify.com/album/4BTEUZbiFrBAArDvEizQXx" target="_blank" rel="noopener">Spotify</a>
+      &nbsp;&bull;&nbsp;
+      <a href="mailto:hostsmblimited@gmail.com">Contact</a>
+    </p>
+  </footer>
 
 </body>
 </html>

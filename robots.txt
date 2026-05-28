@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thebeautifulsavage.github.io/dark-country-boy/sitemap.xml

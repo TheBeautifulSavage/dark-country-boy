@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dark Country Boy — Official Music Podcast</title>
+    <description>Gravel-soaked dark country and swamp blues from North Carolina. New music regularly. 47K+ YouTube subscribers, 14M+ views, distributed on Spotify, Apple Music, and all major platforms.</description>
+    <link>https://thebeautifulsavage.github.io/dark-country-boy/</link>
+    <language>en-us</language>
+    <copyright>2026 Dark Country Boy</copyright>
+    <managingEditor>hostsmblimited@gmail.com (Dark Country Boy)</managingEditor>
+    <webMaster>hostsmblimited@gmail.com (Dark Country Boy)</webMaster>
+    <itunes:author>Dark Country Boy</itunes:author>
+    <itunes:owner>
+      <itunes:name>Dark Country Boy</itunes:name>
+      <itunes:email>hostsmblimited@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Music"/>
+    <itunes:image href="https://yt3.ggpht.com/rH5LSmvIZarBuckT1wfuhywgJAjXDqBmJXLJ5pAFt20Oysfo237AQ2ulD6CVFPnppDZU-ej2BKM=s800-c-k-c0x00ffffff-no-rj"/>
+    <image>
+      <url>https://yt3.ggpht.com/rH5LSmvIZarBuckT1wfuhywgJAjXDqBmJXLJ5pAFt20Oysfo237AQ2ulD6CVFPnppDZU-ej2BKM=s800-c-k-c0x00ffffff-no-rj</url>
+      <title>Dark Country Boy — Official Music Podcast</title>
+      <link>https://thebeautifulsavage.github.io/dark-country-boy/</link>
+    </image>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <atom:link href="https://thebeautifulsavage.github.io/dark-country-boy/podcast.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Barbed-Wire Horizon (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/barbed-wire-horizon.mp3" length="4818285" type="audio/mpeg"/>
+      <itunes:duration>2:28</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-ROVshq4GNow</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=ROVshq4GNow</link>
+    </item>
+    <item>
+      <title>Barracks Rats &amp; Bloody Knuckles (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/barracks-rats-bloody-knuckles.mp3" length="5043381" type="audio/mpeg"/>
+      <itunes:duration>2:50</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-o66AkFExu0I</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=o66AkFExu0I</link>
+    </item>
+    <item>
+      <title>Barstool Fireteam (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/barstool-fireteam.mp3" length="5241357" type="audio/mpeg"/>
+      <itunes:duration>2:50</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-UWQJSeqOHfQ</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=UWQJSeqOHfQ</link>
+    </item>
+    <item>
+      <title>Bayou Blood Ledger (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/bayou-blood-ledger.mp3" length="6700701" type="audio/mpeg"/>
+      <itunes:duration>3:40</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-l_k1ECubamM</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=l_k1ECubamM</link>
+    </item>
+    <item>
+      <title>Bayou Blood Moon (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/bayou-blood-moon.mp3" length="5795805" type="audio/mpeg"/>
+      <itunes:duration>3:20</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-XPh-RPJnEgo</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=XPh-RPJnEgo</link>
+    </item>
+    <item>
+      <title>Whiskey Wars of Babylon (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/whiskey-wars-of-babylon.mp3" length="4413933" type="audio/mpeg"/>
+      <itunes:duration>2:40</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-_cE8mbzq_BM</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=_cE8mbzq_BM</link>
+    </item>
+    <item>
+      <title>Whiskey-Born Amendments (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/whiskey-born-amendments.mp3" length="6409869" type="audio/mpeg"/>
+      <itunes:duration>3:26</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-lq3VtBnVfrA</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=lq3VtBnVfrA</link>
+    </item>
+    <item>
+      <title>Whiskeybones (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/whiskeybones.mp3" length="4812525" type="audio/mpeg"/>
+      <itunes:duration>2:48</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-o5vEswTbBuk</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=o5vEswTbBuk</link>
+    </item>
+    <item>
+      <title>Whispers at the Tower Gate (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/whispers-at-the-tower-gate.mp3" length="4323117" type="audio/mpeg"/>
+      <itunes:duration>2:24</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-WOqgxqu1d6I</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=WOqgxqu1d6I</link>
+    </item>
+    <item>
+      <title>White-Lined Psalms (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/white-lined-psalms.mp3" length="5293581" type="audio/mpeg"/>
+      <itunes:duration>2:56</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-Zku91lV-PfY</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=Zku91lV-PfY</link>
+    </item>
+    <item>
+      <title>Whole Again (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/whole-again.mp3" length="4835277" type="audio/mpeg"/>
+      <itunes:duration>2:50</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-DFQwyOjiqcc</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=DFQwyOjiqcc</link>
+    </item>
+    <item>
+      <title>Whole Lot of Hurt to Heal (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/whole-lot-of-hurt-to-heal.mp3" length="4862205" type="audio/mpeg"/>
+      <itunes:duration>2:40</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-f0AkHFhqQr4</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=f0AkHFhqQr4</link>
+    </item>
+    <item>
+      <title>Widowmaker Mountain (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/widowmaker-mountain.mp3" length="5368749" type="audio/mpeg"/>
+      <itunes:duration>3:04</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-B1HStaVVkgs</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=B1HStaVVkgs</link>
+    </item>
+    <item>
+      <title>Witchgrass Dreams (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/witchgrass-dreams.mp3" length="5685309" type="audio/mpeg"/>
+      <itunes:duration>2:54</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-nJGsYI2cdT8</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=nJGsYI2cdT8</link>
+    </item>
+    <item>
+      <title>Wolves of the Pentagon (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/wolves-of-the-pentagon.mp3" length="5032701" type="audio/mpeg"/>
+      <itunes:duration>2:47</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-HKRolwCrMmU</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=HKRolwCrMmU</link>
+    </item>
+    <item>
+      <title>Wormwood Communion (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/wormwood-communion.mp3" length="6122805" type="audio/mpeg"/>
+      <itunes:duration>3:20</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-RkUTkq6By4s</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=RkUTkq6By4s</link>
+    </item>
+    <item>
+      <title>Wrinkles &amp; Scars (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/wrinkles-scars.mp3" length="5981229" type="audio/mpeg"/>
+      <itunes:duration>3:20</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-OPYNJhBEPJA</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=OPYNJhBEPJA</link>
+    </item>
+    <item>
+      <title>Whispers from the Pit (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/whispers-from-the-pit.mp3" length="6367101" type="audio/mpeg"/>
+      <itunes:duration>3:30</itunes:duration>
+      <pubDate>Tue, 26 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-R-l3woZIC2c</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=R-l3woZIC2c</link>
+    </item>
+    <item>
+      <title>Ballad of the Burnt Capitol (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/ballad-of-the-burnt-capitol.mp3" length="5700909" type="audio/mpeg"/>
+      <itunes:duration>3:20</itunes:duration>
+      <pubDate>Fri, 22 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-3PFOtW6HHfY</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=3PFOtW6HHfY</link>
+    </item>
+    <item>
+      <title>Backwoods Grave (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/backwoods-grave.mp3" length="5162541" type="audio/mpeg"/>
+      <itunes:duration>2:50</itunes:duration>
+      <pubDate>Thu, 21 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-nhdgP0nu5hQ</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=nhdgP0nu5hQ</link>
+    </item>
+    <item>
+      <title>Ashes of the American Dream (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/ashes-of-the-american-dream.mp3" length="6206829" type="audio/mpeg"/>
+      <itunes:duration>3:34</itunes:duration>
+      <pubDate>Tue, 19 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-baOZO2hiCeU</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=baOZO2hiCeU</link>
+    </item>
+    <item>
+      <title>They Call Me (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/they-call-me.mp3" length="3838893" type="audio/mpeg"/>
+      <itunes:duration>2:12</itunes:duration>
+      <pubDate>Tue, 19 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-tBPPpgDvM2g</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=tBPPpgDvM2g</link>
+    </item>
+    <item>
+      <title>Back to the Whole (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/back-to-the-whole.mp3" length="5488869" type="audio/mpeg"/>
+      <itunes:duration>3:00</itunes:duration>
+      <pubDate>Mon, 18 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-sqp8iCF2juM</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=sqp8iCF2juM</link>
+    </item>
+    <item>
+      <title>Backwater Blood Pact (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/backwater-blood-pact.mp3" length="4961565" type="audio/mpeg"/>
+      <itunes:duration>2:43</itunes:duration>
+      <pubDate>Mon, 18 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-pjgBQOLOcBw</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=pjgBQOLOcBw</link>
+    </item>
+    <item>
+      <title>Ashes And Anger (Dark Country Music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/ashes-and-anger.mp3" length="4239621" type="audio/mpeg"/>
+      <itunes:duration>2:29</itunes:duration>
+      <pubDate>Fri, 15 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-zrGPglS8oJ4</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=zrGPglS8oJ4</link>
+    </item>
+    <item>
+      <title>No Alibi Needed (dark country music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/no-alibi-needed.mp3" length="6715749" type="audio/mpeg"/>
+      <itunes:duration>3:46</itunes:duration>
+      <pubDate>Wed, 13 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-AJb_1e6uKWs</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=AJb_1e6uKWs</link>
+    </item>
+    <item>
+      <title>Forgiveness Costs Blood (dark country music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/forgiveness-costs-blood.mp3" length="5507901" type="audio/mpeg"/>
+      <itunes:duration>3:05</itunes:duration>
+      <pubDate>Mon, 11 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-a9nOIBpMLuI</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=a9nOIBpMLuI</link>
+    </item>
+    <item>
+      <title>Honeysuckle and Heartache (dark country music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/honeysuckle-and-heartache.mp3" length="5492181" type="audio/mpeg"/>
+      <itunes:duration>3:22</itunes:duration>
+      <pubDate>Mon, 11 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-Y1LbgIDiwGs</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=Y1LbgIDiwGs</link>
+    </item>
+    <item>
+      <title>Last Witness (dark country music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/last-witness.mp3" length="3323709" type="audio/mpeg"/>
+      <itunes:duration>1:50</itunes:duration>
+      <pubDate>Mon, 11 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-NAhTdTqiFB0</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=NAhTdTqiFB0</link>
+    </item>
+    <item>
+      <title>Split Tongue Savior (dark country music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/split-tongue-savior.mp3" length="3303501" type="audio/mpeg"/>
+      <itunes:duration>1:50</itunes:duration>
+      <pubDate>Mon, 11 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-AH9Go0XREEM</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=AH9Go0XREEM</link>
+    </item>
+    <item>
+      <title>Confessions Dont Clean (dark country music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/confessions-dont-clean.mp3" length="4834653" type="audio/mpeg"/>
+      <itunes:duration>2:40</itunes:duration>
+      <pubDate>Sat, 09 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-eLt_LmLSWYc</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=eLt_LmLSWYc</link>
+    </item>
+    <item>
+      <title>Crow Whiskey (dark country music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/crow-whiskey.mp3" length="6944013" type="audio/mpeg"/>
+      <itunes:duration>3:46</itunes:duration>
+      <pubDate>Sat, 09 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-9i9UfTEQ_HI</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=9i9UfTEQ_HI</link>
+    </item>
+    <item>
+      <title>Digital Armageddon (dark country music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/digital-armageddon.mp3" length="4437285" type="audio/mpeg"/>
+      <itunes:duration>2:30</itunes:duration>
+      <pubDate>Sat, 09 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-fEmQ0qpyGR8</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=fEmQ0qpyGR8</link>
+    </item>
+    <item>
+      <title>Muertos Moonshine (dark country music)</title>
+      <description>Dark country and swamp blues from North Carolina. Stream on Spotify: https://open.spotify.com/artist/4TQMuCjeTbhqvPinWKqRAv</description>
+      <enclosure url="https://pub-5b9513d64eff4838b8da2b28947e3a6c.r2.dev/muertos-moonshine.mp3" length="3188445" type="audio/mpeg"/>
+      <itunes:duration>1:53</itunes:duration>
+      <pubDate>Sat, 09 May 2026 07:00:00 -0000</pubDate>
+      <guid isPermaLink="false">dcb-U10IwdXC5F0</guid>
+      <itunes:author>Dark Country Boy</itunes:author>
+      <link>https://www.youtube.com/watch?v=U10IwdXC5F0</link>
+    </item>
+  </channel>
+</rss>
